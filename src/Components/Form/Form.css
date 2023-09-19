@@ -1,0 +1,102 @@
+*{
+    text-align: center;
+}
+.form{
+     display: absolute; 
+    margin-top: -42em;
+    margin-left: 40em;
+}
+input{
+    width: 30em;
+    margin-bottom: 3em;
+    height: 3.5em;
+    border-radius: 6px;
+    border-color: 5px black;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    background-color: transparent;
+}
+*:focus {
+    outline: none;
+}
+
+.error-1{
+    margin-left: -4em;
+    margin-top: -2.5em;
+}
+.error-2{
+    margin-top: -2.5em;
+    margin-right: 5em;
+}
+label{
+    color: black;
+    margin-left: -17em;
+    margin-bottom:40em;
+    font-size: 12px;
+
+}
+button{
+    width: 30em;
+    height: 4em;
+    border-radius: 7px;
+    background: #220930;
+    color: white;
+    border: none;
+    margin-left: 1em;
+}
+
+.wrapper-1{
+    display: flex;
+    margin-left: 7em;
+}
+.month{
+    
+    width: 6em;
+    margin-left:3.5em;
+    margin-right: 0.5em;
+}
+.year{
+    width:6em;
+    margin-right: 1em;
+
+}
+h1{
+    margin-right:16em ;
+    font-size: 15px;
+    color: #404040;
+    /* font-family: 'Roboto'; */
+    font-family: Roboto;
+}
+h2{
+    margin-right:19em;
+    font-size: 15px;
+    color: #404040;
+    /* font-family: 'Roboto'; */
+    font-family: Roboto;
+
+}
+h3{
+    margin-right:18em ;
+    font-size: 15px;
+    color: #404040;
+    /* font-family: 'Roboto'; */
+    font-family: Roboto;
+    /* margin-top: -1em; */
+}
+h4{
+    position: absolute;
+    margin-left: 16em;
+    margin-top: -2.1em;
+
+    font-size: 15px;
+    color: #404040;
+    font-family: 'Roboto';
+    font-family: Roboto;
+    /* margin-top: -1em; */
+}
+.cvc{
+    display: absolute;
+    width: 16em;
+}
+.col-3{
+    margin-left: 2em;
+}

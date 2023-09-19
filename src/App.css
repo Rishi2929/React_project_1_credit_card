@@ -1,0 +1,25 @@
+
+.cont{
+  overflow: hidden;
+  background-image: url(Assets/images/img.svg);
+  background-size:cover;
+  width: 50%;
+  height: 120vh;
+  /* margin: -0.5em -1em; */
+  margin-top: -4rem;
+  margin-left:-9rem;
+}
+.cont1{
+  margin-left: 8rem;
+}
+/* 
+.form{
+  position: absolute;
+  margin-left: 190em;
+} */
+.wrappermain{
+  position: absolute;
+  margin-left: 52em;
+  margin-top: 12em;
+  width: 50%;
+}

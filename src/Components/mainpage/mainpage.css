@@ -1,0 +1,63 @@
+button{
+    width: 35.5em;
+    height: 3.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #220930;
+    color: white;
+
+}
+input{
+    width: 35em;
+    margin-bottom: 1em;
+    height: 4.5em;
+    border-radius: 6px;
+    border-color: 5px black;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    background-color: transparent;
+}
+.c{
+    position: absolute;
+    margin-left: -50em;
+    margin-top: 1em;
+}
+.my{
+    display: flex;
+    margin-bottom: 1em;
+
+}
+.name{
+    margin-bottom: 2em;
+}
+.number{
+    margin-bottom: 2em;
+}
+.month{
+    width: 8em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+
+
+}
+.year{
+    width: 8em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+
+
+
+}
+.cvc{
+    width: 16em;
+    margin-bottom: 2em;
+
+
+
+}
+.formbox{
+    margin-top: 5em;
+    margin-left: 1em;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+   }

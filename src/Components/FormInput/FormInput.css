@@ -1,0 +1,35 @@
+/* .formInput{
+    width: 35em;
+} */
+input{
+    padding: 15px;
+    margin: 10px 0px;
+    width: 25em;
+}
+.forminput{
+    margin-top: -9em;
+
+    width: 45em;
+    margin-left: -10em;
+}
+
+span{
+    font-size: 12px;
+    color: #F81212;
+    font-family: 'Inter';
+    display: none;
+    position: absolute;
+    margin-top:-1.5em;
+    /* padding: 3px;    */
+}
+
+input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
+label{
+    /* font-size: 25px; */
+}

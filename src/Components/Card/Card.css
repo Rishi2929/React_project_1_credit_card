@@ -1,0 +1,207 @@
+body{
+    overflow: hidden;
+}
+.rect{
+    position: absolute;
+    width: 447px;
+    height: 15em; 
+    background-image: url(/src/Assets/images/Rectangle27.png);
+    background-repeat: no-repeat;
+    /* border: 2px solid #000; */
+    border-radius: 10px;
+    margin-left: 10em;
+    margin-top: -50em;
+    display: flex;
+
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-top:2em;
+}
+
+.circle-1{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-top:2.5em;
+}
+
+.rect2{
+    /* overflow: hidden; */
+
+    position: absolute;
+    width: 447px;
+    height: 280px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: -31em;
+    margin-left: 17em;
+}
+.rect3{
+    width: 447px;
+    height: 50px;
+    background-color: #000;
+    margin-top: 2em;
+}
+.rect4{
+    width: 350px;
+    height: 50px;
+    background-color: #ADB6BF;;
+    margin-top: 2em;
+    margin-left: 2.6em;
+    border-radius: 5px;
+}
+
+/*  Row 1 small lines */
+.grp_of_small_rect{
+    display: flex;
+}
+.smallrect-1{
+    width: 120px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:5.5em;
+    border-radius:5px;
+
+}
+.verysmallrect-2{
+    width: 40px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:0.3em;
+    border-radius:5px;
+}
+.verysmallrect-3{
+    width: 20px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:0.4em;
+    border-radius:5px;
+}
+
+
+ /* Row 2 small lines */
+
+
+.grp_of_small_rect_2{
+    display: flex;
+}
+.smallrect-1_2{
+    width: 20px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:7.5em;
+    border-radius:5px;
+
+}
+.verysmallrect-2_2{
+    width: 80px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:0.3em;
+    border-radius:5px;
+}
+.verysmallrect-02_2{
+    width: 50px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:0.3em;
+    border-radius:5px;
+}
+.verysmallrect-3_2{
+    width: 10px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:0.4em;
+    border-radius:5px;
+}
+ /* Row 2 small lines */
+ .grp_of_small_rect_3{
+    display: flex;
+}
+.smallrect-1_3{
+    width: 10px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:5.5em;
+    border-radius:5px;
+
+}
+.verysmallrect-2_3{
+    width: 40px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:0.3em;
+    border-radius:5px;
+}
+.verysmallrect-02_3{
+    width: 40px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:0.3em;
+    border-radius:5px;
+}
+.verysmallrect-3_3{
+    width: 130px;
+    height: 5px;
+    background-color: #ADB6BF;
+    margin-top:1em;
+    margin-left:0.4em;
+    border-radius:5px;
+}
+.p1{
+    position: absolute;
+    margin-top: 3.9em;
+    font-size: 35px;
+    margin-left: 1em;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+}
+.p2{
+    position: absolute;
+    margin-top: 11.5em;
+    font-size: 17px;
+    margin-left: 2em;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+
+}
+.p3{
+    position: absolute;
+    margin-top: 13.5em;
+    font-size: 15px;
+    margin-left: 23em;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+
+}
+.p4{
+    position: absolute;
+    margin-top: 0.5em;
+    margin-left: 11em;
+    font-size: 25px;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+
+}
+.card{
+    margin-top: 20em;
+    margin-left: -2em;
+}

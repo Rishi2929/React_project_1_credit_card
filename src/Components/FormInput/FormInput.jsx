@@ -4,12 +4,15 @@ import { useState } from "react";
 const FormInput = (props) => {
   const [focused, setFocused] = useState(false);
 
-  const { label, errorMessage, onChange, id, ...inputProps } = props;
+  const { label, errorMessage, onChange, id, error, minLength,  ...inputProps } = props;
+  console.log("input error: ", error);
 
-  console.log("inputProps", inputProps);
+  // console.log("inputProps", inputProps);
+  // console.log("focused", focused);
 
   const handleFocus = (e) => {
     setFocused(true);
+    // console.log("e", e.target.name);
   };
 
   return (
@@ -24,7 +27,9 @@ const FormInput = (props) => {
         onBlur={handleFocus}
         focused={focused.toString()}
       />
-      <span>{errorMessage}</span>
+      {
+        error && props.value <= minLength ? <span>{errorMessage}</span> : ""
+      }
     </div>
   );
 };

@@ -21,11 +21,16 @@ input{
     margin-left: -50em;
     margin-top: 1em;
 }
-.my{
+.col2{
     display: flex;
     margin-bottom: 1em;
 
 }
+/* .col2_row3{
+    display: flex;
+    margin-bottom: 1em;
+
+} */
 .name{
     margin-bottom: 2em;
 }
@@ -47,12 +52,13 @@ input{
 
 
 }
+.col_3{
+    display: flex;
+}
 .cvc{
     width: 16em;
     margin-bottom: 2em;
-
-
-
+    margin-right: 3em;
 }
 .formbox{
     margin-top: 5em;
@@ -61,3 +67,20 @@ input{
 input:focus, textarea:focus, select:focus{
     outline: none;
    }
+.cvcinputbox{
+    margin-left: 7em;
+}
+.cvc_label{
+    margin-left: 7em;
+}
+.centered-toast {
+    white-space: nowrap; /* Prevent text from wrapping */
+    color: purple;
+    font-size: 15px;
+  }
+  .centered-toast .Toastify__close-button {
+    margin-left: 85px; /* You can adjust the margin as needed */
+  }
+  .custom-checkmark {
+    color: red; /* Change the color to your desired color */
+  }
